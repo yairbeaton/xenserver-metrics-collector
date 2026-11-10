@@ -6,6 +6,16 @@ A single Python script that connects over SSH to a XenServer / Citrix Hypervisor
 
 It runs from your workstation (macOS, Linux or Windows). Nothing is installed on the XenServer hosts.
 
+## Screenshots
+
+The HTML dashboard built at the end of a run:
+
+![Dashboard with summary tiles, per-host table and charts over time](docs/dashboard.png)
+
+A continuous run in the terminal — the mode questions, the pool map and the sampling progress:
+
+![Terminal session showing the questions, the pool tree and sample progress](docs/terminal.png)
+
 ## What it does
 
 1. Connects by SSH to the pool master.
